@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <com.anthole.album.MovieView.KenBurnsView 
+        android:id="@+id/movie_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+    <!-- <ViewSwitcher android:id="@+id/view_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@android:anim/fade_in"
+        android:outAnimation="@android:anim/fade_out"
+        >
+        <com.anthole.album.MovieView.KenBurnsView 
+        android:id="@+id/movie_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+        
+        <com.anthole.album.MovieView.KenBurnsView 
+        android:id="@+id/movie_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+        
+    </ViewSwitcher>
+     -->
+    
+
+</LinearLayout>
